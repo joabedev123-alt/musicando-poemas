@@ -35,7 +35,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css?v=2">
 
 <!-- Schema.org -->
 <script type="application/ld+json">
@@ -104,7 +104,9 @@
       <a href="#aplicacoes" data-nav>Aplicações</a>
       <a href="#plataformas" data-nav>Plataformas</a>
       <a href="#galeria" data-nav>Galeria</a>
+      <a href="#criador" class="nav__hl" data-nav>O Criador</a>
     </nav>
+    <a href="[LINK DA LANDING PAGE]" class="btn btn--sm btn--gold nav__buy" target="_blank" rel="noopener noreferrer">Comprar</a>
     <a href="#contato" class="btn btn--sm btn--solid" data-magnetic>Contato</a>
     <button class="nav__burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
       <span></span><span></span>
@@ -121,7 +123,10 @@
     <a href="#redes"><span>04</span> Redes</a>
     <a href="#plataformas"><span>05</span> Plataformas</a>
     <a href="#galeria"><span>06</span> Galeria</a>
-    <a href="#contato"><span>07</span> Contato</a>
+    <a href="#depoimentos"><span>07</span> Depoimentos</a>
+    <a href="#criador"><span>08</span> O Criador</a>
+    <a href="[LINK DA LANDING PAGE]" target="_blank" rel="noopener noreferrer"><span>09</span> Comprar</a>
+    <a href="#contato"><span>10</span> Contato</a>
   </nav>
 </div>
 
@@ -289,6 +294,33 @@
   </div>
 </section>
 
+<!-- ══════════════ O CRIADOR ══════════════ -->
+<section class="criador" id="criador">
+  <div class="wrap criador__in">
+    <div class="criador__col" data-fade>
+      <span class="eyebrow"><i></i>Sobre o criador do projeto</span>
+      <h2 class="sec-title">Maurício Sales</h2>
+      <p class="criador__lead">Considera-se um <em>Ser Espiritual</em> vivendo práticas humanas.</p>
+    </div>
+    <div class="criador__col" data-fade>
+      <h3 class="criador__h">Formação acadêmica</h3>
+      <ul class="criador__list">
+        <li>Escritor</li>
+        <li>Doutorando em Ciências Econômicas e Sociais</li>
+        <li>Formado em História</li>
+        <li>Pós-graduado em Direito Ambiental e Urbanismo</li>
+      </ul>
+      <h3 class="criador__h">Atuação</h3>
+      <ul class="criador__list">
+        <li>Professor de sociologia e filosofia</li>
+        <li>Ator e diretor de teatro</li>
+        <li>Cineasta</li>
+        <li>Produtor de músicas digitais e conteúdos para redes sociais</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 <!-- ══════════════ INTERLÚDIO 2 ══════════════ -->
 <section class="interlude" aria-label="Frase">
   <p class="interlude__q" data-split>A poesia encontra sua voz.</p>
@@ -407,6 +439,34 @@
   </div>
 </section>
 
+<!-- ══════════════ DEPOIMENTOS ══════════════ -->
+<section class="depo" id="depoimentos">
+  <div class="wrap">
+    <header class="sec-head sec-head--center">
+      <span class="eyebrow" data-fade><i></i>Depoimentos</span>
+      <h2 class="sec-title" data-split>Quem ouviu, conta.</h2>
+    </header>
+
+    <!-- ESPAÇO RESERVADO. Para publicar, duplicar o <figure class="depo__c"> abaixo
+         para cada depoimento e apagar o bloco .depo__wait. -->
+    <div class="depo__wait" data-fade>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true">
+        <path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.9-.9L3 21l1.9-4.6A8.3 8.3 0 0 1 3.6 11.5a8.4 8.4 0 0 1 8.4-8.4 8.4 8.4 0 0 1 9 8.4Z"/>
+      </svg>
+      <p class="depo__wait-t">Espaço reservado para os depoimentos.</p>
+      <p class="depo__wait-d">Assim que os textos chegarem, cada um entra como um cartão
+      aqui — com o depoimento, o nome de quem escreveu e o projeto a que se refere.</p>
+    </div>
+
+    <ul class="depo__grid" hidden>
+      <li><figure class="depo__c">
+        <blockquote class="depo__q">Texto do depoimento.</blockquote>
+        <figcaption class="depo__a"><b>Nome de quem escreveu</b>Projeto ou contexto</figcaption>
+      </figure></li>
+    </ul>
+  </div>
+</section>
+
 <!-- ══════════════ DIFERENCIAIS ══════════════ -->
 <section class="dif" id="diferenciais">
   <div class="wrap">
@@ -513,6 +573,6 @@
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js" defer></script>
-<script src="assets/js/main.js" defer></script>
+<script src="assets/js/main.js?v=2" defer></script>
 </body>
 </html>
