@@ -90,7 +90,7 @@ const PLATAFORMAS = [
 const GALERIA = [
   { tag:'TikTok',    t:'O verso que virou refrão',   s:'Poema musicado · trecho',  art:'ridge', url:'https://www.tiktok.com/@musicandopoemas21' },
   { tag:'Instagram', t:'Memória em três minutos',    s:'Reels · homenagem',        art:'bloom', url:'https://www.instagram.com/musicandopoemas' },
-  { tag:'YouTube',   t:'A carta que ninguém enviou', s:'Vídeo completo',           art:'wave',  url:'https://www.youtube.com/@musicandopoemas' },
+  { tag:'YouTube',   t:'A carta que ninguém enviou', s:'Vídeo completo',           art:'wave',  url:'https://music.youtube.com/playlist?list=PLIt2tBcgBI60&si=fgVbvCXCVha2U-hp' },
   { tag:'TikTok',    t:'Entre o silêncio e a voz',   s:'Bastidores de estúdio',    art:'orbit', url:'https://www.tiktok.com/@musicandopoemas21' },
   { tag:'Instagram', t:'Para quem ficou',            s:'Reels · trilha original',  art:'halo',  url:'https://www.instagram.com/musicandopoemas' }
 ];
