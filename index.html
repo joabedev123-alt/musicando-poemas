@@ -105,11 +105,9 @@
       <a href="#plataformas" data-nav>Plataformas</a>
       <a href="#galeria" data-nav>Galeria</a>
       <a href="#criador" class="nav__hl" data-nav>O Criador</a>
+      <a href="#produtos" data-nav>Produtos</a>
     </nav>
-    <!-- Botão "Comprar" retirado até a URL da landing page chegar: um link
-         morto num botão em destaque é pior que a ausência dele. Para voltar,
-         restaurar esta linha com o endereço real:
-         <a href="URL" class="btn btn--sm btn--gold nav__buy" target="_blank" rel="noopener noreferrer">Comprar</a> -->
+    <a href="#produtos" class="btn btn--sm btn--gold nav__buy" data-magnetic>Adquirir Produtos</a>
     <a href="#contato" class="btn btn--sm btn--solid" data-magnetic>Contato</a>
     <button class="nav__burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
       <span></span><span></span>
@@ -128,7 +126,8 @@
     <a href="#galeria"><span>06</span> Galeria</a>
     <a href="#depoimentos"><span>07</span> Depoimentos</a>
     <a href="#criador"><span>08</span> O Criador</a>
-    <a href="#contato"><span>09</span> Contato</a>
+    <a href="#produtos"><span>09</span> Adquira Nossos Produtos</a>
+    <a href="#contato"><span>10</span> Contato</a>
   </nav>
 </div>
 
@@ -319,6 +318,60 @@
         <li>Cineasta</li>
         <li>Produtor de músicas digitais e conteúdos para redes sociais</li>
       </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ ADQUIRA NOSSOS PRODUTOS ══════════════ -->
+<section class="projetos" id="produtos">
+  <div class="wrap">
+    <header class="sec-head sec-head--center">
+      <span class="eyebrow" data-fade><i></i>Aquisição</span>
+      <h2 class="sec-title" data-split>Adquira Nossos Produtos</h2>
+      <p class="sec-lead" data-fade>
+        Escolha a plataforma de sua preferência para adquirir nossas obras, produções e conteúdos digitais exclusivos.
+      </p>
+    </header>
+
+    <div class="projetos__grid">
+      <!-- Componente 1: Hotmart -->
+      <article class="projetos__card" data-fade>
+        <div class="projetos__badge">Hotmart</div>
+        <div class="projetos__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        </div>
+        <h3 class="projetos__title">Projeto Musicando Poemas</h3>
+        <p class="projetos__desc">Acesse produções poético-musicais, composições exclusivas e materiais digitais de alto nível no Hotmart.</p>
+        <a href="https://go.hotmart.com/M106858347O" target="_blank" rel="noopener" class="btn btn--gold projetos__btn" data-magnetic>
+          <span>Adquirir na Hotmart</span>
+        </a>
+      </article>
+
+      <!-- Componente 2: Eduzz -->
+      <article class="projetos__card" data-fade>
+        <div class="projetos__badge">Eduzz</div>
+        <div class="projetos__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        </div>
+        <h3 class="projetos__title">Coleção Poética Digital</h3>
+        <p class="projetos__desc">Garanta seu acesso às obras autorais, poesias musicadas e materiais de apoio com praticidade na Eduzz.</p>
+        <a href="https://chk.eduzz.com/E9OG61AAWB" target="_blank" rel="noopener" class="btn btn--gold projetos__btn" data-magnetic>
+          <span>Adquirir na Eduzz</span>
+        </a>
+      </article>
+
+      <!-- Componente 3: MooviFlow -->
+      <article class="projetos__card" data-fade>
+        <div class="projetos__badge">MooviFlow</div>
+        <div class="projetos__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </div>
+        <h3 class="projetos__title">Experiência Imersiva</h3>
+        <p class="projetos__desc">Desfrute de produções em áudio e vídeo de alta fidelidade com experiência multimídia no MooviFlow.</p>
+        <a href="https://mooviflow.com.br/s/2ae3a590-a9d5-44ee-8d80-d787ec504f47" target="_blank" rel="noopener" class="btn btn--gold projetos__btn" data-magnetic>
+          <span>Adquirir no MooviFlow</span>
+        </a>
+      </article>
     </div>
   </div>
 </section>
@@ -529,10 +582,15 @@
       Transformamos sentimentos em melodias capazes de emocionar pessoas e eternizar momentos.
     </p>
     <div class="cta__actions" data-fade>
-      <!-- TODO: trocar pelo WhatsApp/e-mail real -->
-      <a href="https://wa.me/5500000000000?text=Ol%C3%A1%21%20Quero%20um%20poema%20musicado."
+      <a href="https://wa.me/5411927509890?text=Ol%C3%A1%21%20Quero%20um%20poema%20musicado."
          class="btn btn--gold" target="_blank" rel="noopener" data-magnetic>
-        <span>Entrar em contato</span>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" style="margin-right:8px"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.84 9.84 0 0 0 12.04 2zm5.74 14.12c-.24.68-1.2 1.26-1.95 1.33-.51.05-1.18.08-3.44-.85-2.89-1.19-4.75-4.13-4.9-4.32-.14-.19-1.18-1.57-1.18-3 0-1.43.74-2.13 1.01-2.42.27-.29.59-.36.79-.36.2 0 .39.01.56.01.18 0 .42-.07.66.5.24.58.82 2 .89 2.15.07.15.12.33.02.53-.1.2-.15.32-.3.49-.15.17-.32.38-.46.51-.15.15-.3.32-.13.62.34.6 1.5 2.46 3.23 4 .57.51 1.05.68 1.4.83.35.15.56.13.77-.11.21-.24.89-1.04 1.13-1.4.24-.36.48-.3.8-.18.32.12 2.05.97 2.4 1.14.35.17.58.26.66.41.08.15.08.87-.16 1.55z"/></svg>
+        <span>WhatsApp: +54 11 9 2750-9890</span>
+      </a>
+      <a href="mailto:musicandopoemas2024@gmail.com?subject=Contato%20-%20Musicando%20Poemas"
+         class="btn btn--solid cta__email-btn" data-magnetic>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" style="margin-right:8px"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m22 7-10 7L2 7"/></svg>
+        <span>Enviar E-mail</span>
       </a>
     </div>
   </div>
@@ -542,33 +600,101 @@
 
 <!-- ══════════════ FOOTER ══════════════ -->
 <footer class="foot">
-  <div class="wrap foot__inner">
-    <div class="foot__brand">
-      <img src="assets/img/logo.png" alt="Musicando Poemas" width="200" height="75" loading="lazy">
-      <p>Transformando palavras em emoção.</p>
-    </div>
+  <div class="wrap">
+    <div class="foot__grid">
+      <!-- Coluna 1: Marca & Sobre -->
+      <div class="foot__col foot__col--brand">
+        <img src="assets/img/logo.png" alt="Musicando Poemas" width="200" height="75" loading="lazy">
+        <p class="foot__slogan">Transformando palavras em emoção.</p>
+        <p class="foot__desc">
+          Projeto artístico idealizado por <strong>Maurício Sales</strong>. Poemas, histórias e sentimentos transformados em composições musicais de alto nível, registradas e distribuídas em mais de 45 plataformas no mundo todo.
+        </p>
+      </div>
 
-    <nav class="foot__social" aria-label="Redes sociais">
-      <a href="https://www.instagram.com/musicandopoemas" target="_blank" rel="noopener" aria-label="Instagram" data-magnetic>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
-        <span>Instagram</span>
-      </a>
-      <a href="https://www.tiktok.com/@musicandopoemas21" target="_blank" rel="noopener" aria-label="TikTok" data-magnetic>
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5 2.59 2.59 0 1 1 .77-5.06V9.68a5.68 5.68 0 0 0-.77-.05A5.69 5.69 0 1 0 15.54 15.3V8.9a7.35 7.35 0 0 0 4.3 1.38V7.19a4.28 4.28 0 0 1-3.24-1.37Z"/></svg>
-        <span>TikTok</span>
-      </a>
-      <a href="https://www.youtube.com/@musicandopoemas" target="_blank" rel="noopener" aria-label="YouTube" data-magnetic>
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.6-.46-5.32a2.78 2.78 0 0 0-1.96-1.96C18.86 4.25 12 4.25 12 4.25s-6.86 0-8.58.47A2.78 2.78 0 0 0 1.46 6.7C1 8.4 1 12 1 12s0 3.6.46 5.32a2.78 2.78 0 0 0 1.96 1.96c1.72.47 8.58.47 8.58.47s6.86 0 8.58-.47a2.78 2.78 0 0 0 1.96-1.96C23 15.6 23 12 23 12ZM9.75 15.27V8.73L15.5 12l-5.75 3.27Z"/></svg>
-        <span>YouTube</span>
-      </a>
-    </nav>
+      <!-- Coluna 2: Contato Direto -->
+      <div class="foot__col">
+        <h4 class="foot__title">Contato Direto</h4>
+        <ul class="foot__contact-list">
+          <li>
+            <a href="https://wa.me/5411927509890?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20o%20Musicando%20Poemas." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.84 9.84 0 0 0 12.04 2zm5.74 14.12c-.24.68-1.2 1.26-1.95 1.33-.51.05-1.18.08-3.44-.85-2.89-1.19-4.75-4.13-4.9-4.32-.14-.19-1.18-1.57-1.18-3 0-1.43.74-2.13 1.01-2.42.27-.29.59-.36.79-.36.2 0 .39.01.56.01.18 0 .42-.07.66.5.24.58.82 2 .89 2.15.07.15.12.33.02.53-.1.2-.15.32-.3.49-.15.17-.32.38-.46.51-.15.15-.3.32-.13.62.34.6 1.5 2.46 3.23 4 .57.51 1.05.68 1.4.83.35.15.56.13.77-.11.21-.24.89-1.04 1.13-1.4.24-.36.48-.3.8-.18.32.12 2.05.97 2.4 1.14.35.17.58.26.66.41.08.15.08.87-.16 1.55z"/></svg>
+              <span>+54 11 9 2750-9890</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:musicandopoemas2024@gmail.com">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m22 7-10 7L2 7"/></svg>
+              <span>musicandopoemas2024@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <div class="foot__info-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <span>Criador: Maurício Sales</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Coluna 3: Navegação Rápida -->
+      <div class="foot__col">
+        <h4 class="foot__title">Navegação</h4>
+        <ul class="foot__links">
+          <li><a href="#sobre">Sobre o Projeto</a></li>
+          <li><a href="#processo">Como Funciona</a></li>
+          <li><a href="#aplicacoes">Aplicações</a></li>
+          <li><a href="#plataformas">Plataformas</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#criador">O Criador</a></li>
+          <li><a href="#produtos">Adquira Nossos Produtos</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 4: Redes Sociais & Canais -->
+      <div class="foot__col">
+        <h4 class="foot__title">Redes Sociais</h4>
+        <div class="foot__social">
+          <a href="https://www.instagram.com/musicandopoemas" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.tiktok.com/@musicandopoemas21" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5 2.59 2.59 0 1 1 .77-5.06V9.68a5.68 5.68 0 0 0-.77-.05A5.69 5.69 0 1 0 15.54 15.3V8.9a7.35 7.35 0 0 0 4.3 1.38V7.19a4.28 4.28 0 0 1-3.24-1.37Z"/></svg>
+            <span>TikTok</span>
+          </a>
+          <a href="https://www.youtube.com/@musicandopoemas" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.6-.46-5.32a2.78 2.78 0 0 0-1.96-1.96C18.86 4.25 12 4.25 12 4.25s-6.86 0-8.58.47A2.78 2.78 0 0 0 1.46 6.7C1 8.4 1 12 1 12s0 3.6.46 5.32a2.78 2.78 0 0 0 1.96 1.96c1.72.47 8.58.47 8.58.47s6.86 0 8.58-.47a2.78 2.78 0 0 0 1.96-1.96C23 15.6 23 12 23 12ZM9.75 15.27V8.73L15.5 12l-5.75 3.27Z"/></svg>
+            <span>YouTube</span>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="wrap foot__base">
-    <p>© <span id="year">2026</span> Musicando Poemas. Todos os direitos reservados.</p>
-    <p>Obras autorais protegidas. Reprodução mediante autorização.</p>
+    <p>© <span id="year">2026</span> Musicando Poemas — Por <strong>Maurício Sales</strong>. Todos os direitos reservados.</p>
+    <p>Obras autorais registradas com ISRC. Distribuição em mais de 45 plataformas digitais.</p>
+    <p class="foot__credits">Produzida com 💚 por <a href="https://camaly.com.br/" target="_blank" rel="noopener" class="foot__camaly">CAMALY</a></p>
   </div>
 </footer>
+
+<!-- ══════════════ BOTÃO FLUTUANTE WHATSAPP ══════════════ -->
+<div class="wa-float-wrap" id="waFloatWrap">
+  <div class="wa-float-tooltip" id="waFloatTooltip">
+    <button class="wa-float-close" id="waFloatClose" aria-label="Fechar mensagem">&times;</button>
+    <div class="wa-float-avatar">
+      <img src="assets/img/logo-512.png" alt="Musicando Poemas" width="38" height="38">
+    </div>
+    <div class="wa-float-msg">
+      <strong>Musicando Poemas</strong>
+      <p>Olá! Seja bem-vindo(a) ao Musicando Poemas. Como posso te ajudar a transformar sua história em música?</p>
+    </div>
+  </div>
+  <a href="https://wa.me/5411927509890?text=Ol%C3%A1%21%20Seja%20bem-vindo%28a%29%20ao%20Musicando%20Poemas.%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es."
+     target="_blank" rel="noopener" class="wa-float-btn" aria-label="Conversar no WhatsApp" data-magnetic>
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.461c-1.808 0-3.586-.486-5.145-1.405l-.368-.218-3.824 1.003 1.021-3.728-.24-.381A11.43 11.43 0 0 1 2.213 11.9c0-6.326 5.146-11.473 11.474-11.473 3.064 0 5.944 1.194 8.113 3.364 2.169 2.169 3.363 5.048 3.363 8.113 0 6.327-5.147 11.473-11.473 11.473M11.942 0C5.357 0 0 5.357 0 11.942c0 2.102.547 4.156 1.587 5.961L0 24l6.236-1.636a11.91 11.91 0 0 0 5.706 1.458c6.586 0 11.943-5.357 11.943-11.942C23.885 5.357 18.528 0 11.942 0"/></svg>
+  </a>
+</div>
 
 <!-- Libs -->
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>

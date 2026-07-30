@@ -88,10 +88,10 @@ const PLATAFORMAS = [
 /* — Galeria —
    TODO: trocar `url` pelos links reais dos vídeos publicados. */
 const GALERIA = [
-  { tag:'TikTok',    t:'O verso que virou refrão',   s:'Poema musicado · trecho',  art:'ridge', url:'https://www.tiktok.com/@musicandopoemas' },
+  { tag:'TikTok',    t:'O verso que virou refrão',   s:'Poema musicado · trecho',  art:'ridge', url:'https://www.tiktok.com/@musicandopoemas21' },
   { tag:'Instagram', t:'Memória em três minutos',    s:'Reels · homenagem',        art:'bloom', url:'https://www.instagram.com/musicandopoemas' },
   { tag:'YouTube',   t:'A carta que ninguém enviou', s:'Vídeo completo',           art:'wave',  url:'https://www.youtube.com/@musicandopoemas' },
-  { tag:'TikTok',    t:'Entre o silêncio e a voz',   s:'Bastidores de estúdio',    art:'orbit', url:'https://www.tiktok.com/@musicandopoemas' },
+  { tag:'TikTok',    t:'Entre o silêncio e a voz',   s:'Bastidores de estúdio',    art:'orbit', url:'https://www.tiktok.com/@musicandopoemas21' },
   { tag:'Instagram', t:'Para quem ficou',            s:'Reels · trilha original',  art:'halo',  url:'https://www.instagram.com/musicandopoemas' }
 ];
 
@@ -660,12 +660,22 @@ function boot(){
     }
   }
 
+  function waFloat(){
+    const closeBtn = $('#waFloatClose');
+    const tooltip = $('#waFloatTooltip');
+    if(!closeBtn || !tooltip) return;
+    closeBtn.addEventListener('click', () => {
+      tooltip.classList.add('is-hidden');
+    });
+  }
+
   nav(lenis);
   cursor();
   magnetic();
   hoverFX();
   heroParticles();
   ctaWaves();
+  waFloat();
 
   /* O SplitType congela a quebra de linha no momento em que roda.
      Se a fonte ainda não carregou, ele mede com a fonte de fallback e
