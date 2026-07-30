@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://musicandopoemas.com.br/sitemap.xml
