@@ -891,3 +891,25 @@ em{font-style:italic;color:var(--gold)}
   .cta__actions .btn{margin-left:0!important;width:100%;max-width:340px;justify-content:center}
 }
 @media (max-width:640px){ .depo__grid{grid-template-columns:1fr} }
+
+/* ═══ OTIMIZAÇÕES MOBILE E TOUCH ══════════════════════════ */
+html{-webkit-tap-highlight-color:transparent;overflow-x:hidden}
+body{overflow-x:hidden}
+.galeria__track{scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.vid{scroll-snap-align:start}
+
+@media (max-width:480px){
+  .btn{min-height:48px;padding:.85rem 1.4rem;font-size:.92rem}
+  .wa-float-wrap{
+    bottom:calc(.8rem + env(safe-area-inset-bottom, 0px));
+    right:.8rem;
+  }
+  .wa-float-tooltip{
+    max-width:calc(100vw - 2rem);
+    padding:.9rem 1.1rem;
+    font-size:.82rem;
+  }
+  .wa-float-btn{width:3.4rem;height:3.4rem}
+  .wa-float-btn svg{width:1.8rem;height:1.8rem}
+  .sec-head{margin-bottom:2rem}
+}

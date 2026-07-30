@@ -217,7 +217,8 @@ function heroParticles(){
     w = cv.clientWidth; h = cv.clientHeight;
     cv.width = w * dpr; cv.height = h * dpr;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    const n = Math.round(Math.min(80, (w * h) / 19000));
+    const maxParts = COARSE ? 25 : 80;
+    const n = Math.round(Math.min(maxParts, (w * h) / 19000));
     parts = Array.from({ length:n }, () => ({
       x: Math.random() * w,
       y: Math.random() * h,
